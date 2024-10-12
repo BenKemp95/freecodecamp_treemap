@@ -1,0 +1,41 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+
+svg {
+    background-color: antiquewhite;
+}
+
+#canvas {
+    min-height: 600px;
+    min-width: 1000px;
+}
+#legend {
+    min-width: 700px;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+}
+
+#description{
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    padding: 4px;
+    margin: 5px;
+}
